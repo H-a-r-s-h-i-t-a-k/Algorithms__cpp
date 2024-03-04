@@ -55,13 +55,11 @@ public:
     {
         for (auto vect : st)
         {
-            // Each element of the list is
-            // a vector itself
+          
             list<int> currentVector = vect;
 
             cout << "[ ";
 
-            // Printing vector contents
             for (auto element : currentVector)
                 cout << element << ' ';
 
