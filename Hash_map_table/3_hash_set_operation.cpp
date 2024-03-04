@@ -1,5 +1,6 @@
+#include <iostream>
 #include <unordered_set> // 0. include the library
-
+using namespace std;
 int main()
 {
     // 1. initialize a hash set
