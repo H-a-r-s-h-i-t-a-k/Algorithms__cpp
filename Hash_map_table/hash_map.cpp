@@ -11,7 +11,7 @@ class MyHashSet
 public:
     MyHashSet()
     {
-        sz = 100000;
+        sz = 10;
         st.resize(sz);
     }
     int hash(int key)
@@ -51,24 +51,24 @@ public:
             return false;
     }
 
-    // void traverse()
-    // {
-    //     for (auto vect : st)
-    //     {
-    //         // Each element of the list is
-    //         // a vector itself
-    //         list<int> currentVector = vect;
+    void traverse()
+    {
+        for (auto vect : st)
+        {
+            // Each element of the list is
+            // a vector itself
+            list<int> currentVector = vect;
 
-    //         cout << "[ ";
+            cout << "[ ";
 
-    //         // Printing vector contents
-    //         for (auto element : currentVector)
-    //             cout << element << ' ';
+            // Printing vector contents
+            for (auto element : currentVector)
+                cout << element << ' ';
 
-    //         cout << ']';
-    //         cout << '\n';
-    //     }
-    // }
+            cout << ']';
+            cout << '\n';
+        }
+    }
 };
 
 int main()
@@ -78,10 +78,26 @@ int main()
     myHashSet.add(2);      // set = [1, 2]
     myHashSet.contains(1); // return True
     myHashSet.contains(3); // return False, (not found)
-    myHashSet.add(2);      // set = [1, 2]
+    myHashSet.add(2);
+    myHashSet.add(13);
+    myHashSet.add(3);
+    myHashSet.add(2); // set = [1, 2]
+    myHashSet.add(11);
+    myHashSet.add(4);
+
     myHashSet.contains(2); // return True
-    myHashSet.remove(2);   // set = [1]
+    myHashSet.remove(3);   // set = [1]
     myHashSet.contains(2); // return False, (already removed)
-    // myHashSet.traverse();
+    myHashSet.traverse();
     return 0;
+    // []
+    // [1 11]
+    // [2]
+    // [13]
+    // [4]
+    // []
+    // []
+    // []
+    // []
+    // []
 }
