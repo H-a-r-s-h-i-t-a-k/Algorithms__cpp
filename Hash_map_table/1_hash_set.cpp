@@ -85,7 +85,7 @@ int main()
 
     myHashSet.contains(2); // return True
     myHashSet.remove(3);   // set = [1]
-    myHashSet.contains(2); // return False, (already removed)
+    myHashSet.contains(2); // return False, (already removed
     myHashSet.traverse();
     return 0;
     // []
