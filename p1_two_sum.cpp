@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-class Solution1
+class Solution
 {
 public:
     vector<int> twoSum(vector<int> &nums, int target)
