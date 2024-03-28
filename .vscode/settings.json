@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "vector": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "ratio": "cpp"
     }
 }
