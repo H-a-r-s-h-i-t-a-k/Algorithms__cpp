@@ -32,6 +32,6 @@ int main()
 
     int n = 4, arr[] = {111, 222, 3373, 444};
 
-    cout << isPalindrome(arr, n);
+    cout << isPalindrome(arr, n) << endl;
     return 0;
 }
