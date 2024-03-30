@@ -1,5 +1,5 @@
-#include <vector>
-
+#include <iostream>
+#include <vector.h>
 class Solution
 {
 public:
