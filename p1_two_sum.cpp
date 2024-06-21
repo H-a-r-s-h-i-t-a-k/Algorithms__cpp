@@ -14,10 +14,16 @@ public:
             if (hm.find(target - nums[i]) != hm.end())
             {
                 final.push_back(hm[target - nums[i]]);
+                cout << i << endl;
                 final.push_back(i);
                 return final;
             }
             hm[nums[i]] = i;
+        }
+        vector<int>::iterator it;
+        for (it = final.begin(); it != final.end(); it++)
+        {
+            cout << *it << endl;
         }
         return final;
     }
@@ -25,11 +31,13 @@ public:
 
 int main()
 {
-    vector<int>vec={19,2,3};
-res=twoSum(vec,90);
-   vector<int>::iterator it;
-    for(it=res.begin();it!=res.end();it++){
-        cout<<*it<<endl;
+    Solution s1;
+    vector<int> vec = {1, 2, 3, 4, 5, 6, 4, 5, 6, 7, 8, 7, 7, 8, 9, 6};
+    vec = s1.twoSum(vec, 14);
+    vector<int>::iterator it;
+    for (it = vec.begin(); it != vec.end(); it++)
+    {
+        cout << *it << endl;
     }
     return 0;
 }
