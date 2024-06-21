@@ -25,6 +25,11 @@ public:
 
 int main()
 {
-
+    vector<int>vec={19,2,3};
+res=twoSum(vec,90);
+   vector<int>::iterator it;
+    for(it=res.begin();it!=res.end();it++){
+        cout<<*it<<endl;
+    }
     return 0;
 }
