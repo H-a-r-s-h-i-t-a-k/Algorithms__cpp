@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector.h>
 class Solution
 {
 public:
@@ -15,5 +14,8 @@ public:
             }
         }
         return result;
+    }
+    int main()
+    {
     }
 };
