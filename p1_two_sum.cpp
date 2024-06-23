@@ -14,7 +14,7 @@ public:
             if (hm.find(target - nums[i]) != hm.end())
             {
                 final.push_back(hm[target - nums[i]]);
-                cout << i << endl;
+
                 final.push_back(i);
                 return final;
             }
