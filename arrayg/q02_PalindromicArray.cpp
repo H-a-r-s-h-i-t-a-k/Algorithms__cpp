@@ -15,12 +15,10 @@ bool isPalindrome(int arr[], int n)
             j = numb.size() - i - 1;
 
             if (numb.at(i) != numb.at(j))
-            {
-                ans = false;
+            {  ans = false;
                 return 0;
             }
         }
-
         x++;
     }
 
@@ -32,6 +30,6 @@ int main()
 
     int n = 4, arr[] = {111, 222, 3373, 444};
 
-    cout << isPalindrome(arr, n) << endl;
+    cout << IsPalindrome(arr, n) << endl;
     return 0;
 }

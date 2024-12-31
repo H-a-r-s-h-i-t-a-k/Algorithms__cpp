@@ -14,6 +14,7 @@ int main()
 
     for (int i = 0; i < num.size(); i++)
     {
+<<<<<<< HEAD
         if (mp[num[i]] < mp[num[i + 1]])
         {
             ans = ans - mp[num[i]];
@@ -24,6 +25,9 @@ int main()
             ans = ans + mp[num[i]];
            
         }
+=======
+        if()
+>>>>>>> 789b96d87f49e8963f25a4249e4d81acbbf23021
     }
 
     return 0;
