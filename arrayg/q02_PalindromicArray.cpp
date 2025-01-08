@@ -28,7 +28,7 @@ bool isPalindrome(int arr[], int n)
 int main()
 {
 
-    int n = 4, arr[] = {111, 222, 3373, 444};
+    int n = 4, arr[] = {111, 222, 3373, 444};///
 
     cout << IsPalindrome(arr, n) << endl;
     return 0;
