@@ -25,7 +25,7 @@ public:
                 }
             }
 
-            unordered_set<char> between;//
+            unordered_set<char> between;
             for (int a = i + 1; a < j; a++)
             {
                 between.insert(s[a]);
