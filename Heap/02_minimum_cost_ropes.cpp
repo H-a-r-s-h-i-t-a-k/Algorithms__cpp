@@ -2,7 +2,7 @@
 class Solution
 {
 public:
-    // Function to return the minimum cost of connecting the ropes.
+    ///// Function to return the minimum cost of connecting the ropes.
     int minCost(vector<int> &arr)
     {
         // code here
