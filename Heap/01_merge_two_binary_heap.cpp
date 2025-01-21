@@ -24,7 +24,7 @@ public:
     }
     vector<int> mergeHeaps(vector<int> &a, vector<int> &b, int n, int m)
     {
-        ///your code here
+        //your code here
         // merge both array into one
         vector<int> ans;
 
