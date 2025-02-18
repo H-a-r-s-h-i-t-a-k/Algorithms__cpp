@@ -5,7 +5,7 @@ public:
     // Function to return the minimum cost of connecting the ropes.
     int minCost(vector<int> &arr)
     {
-        // code here
+        // //code here
         priority_queue<int, vector<int>, greater<int>> pq(arr.begin(), arr.end());
 
         int res = 0;
